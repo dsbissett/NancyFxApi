@@ -1,0 +1,165 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+    <body>
+        <style>
+            .Aligner {
+              display: flex;
+              align-items: center;
+              height: 60em;
+              justify-content: center;
+            }
+            
+            .Aligner-item {
+              flex: 0 1 auto;
+            }
+            
+            .Aligner-item--fixed {
+              flex: none;
+              width: 50%;
+              max-width: 100%;
+            }            
+        </style>
+        <div class="Aligner">
+            <div class="Aligner-item Aligner-item--fixed">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">API Endpoints</div>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <td>Endpoint</td>
+                                    <td>Parameter Type</td>
+                                    <td>Return Type</td>
+                                    <td>Description</td>
+                                </tr>                                
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>/api/customers</td>
+                                    <td><span class="label label-default">none</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td>Returns a list of all customers.</td>
+                                </tr>
+                                <tr>
+                                    <td>/api/customers/{customerId}</td>
+                                    <td><span class="label label-success">string</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td>Returns customer with matching ID</td>
+                                </tr>
+                                <tr>
+                                    <td>/api/categories</td>
+                                    <td><span class="label label-default">none</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>/api/categories/{categoryId}</td>
+                                    <td><span class="label label-success">number</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>/api/employees</td>
+                                    <td><span class="label label-default">none</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>/api/employees/{employeeId}</td>
+                                    <td><span class="label label-success">number</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>/api/orders</td>
+                                    <td><span class="label label-default">none</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>/api/orders/{orderId}</td>
+                                    <td><span class="label label-success">number</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>/api/products</td>
+                                    <td><span class="label label-default">none</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>/api/products/{productId}</td>
+                                    <td><span class="label label-success">number</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>/api/regions</td>
+                                    <td><span class="label label-default">none</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>/api/regions/{regionId}</td>
+                                    <td><span class="label label-success">number</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>/api/shippers</td>
+                                    <td><span class="label label-default">none</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>/api/shippers/{shipperId}</td>
+                                    <td><span class="label label-success">number</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>/api/suppliers</td>
+                                    <td><span class="label label-default">none</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>/api/suppliers/{supplierId}</td>
+                                    <td><span class="label label-success">number</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>/api/territories</td>
+                                    <td><span class="label label-default">none</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>/api/territories/{territoryId}</td>
+                                    <td><span class="label label-success">number</span></td>
+                                    <td><span class="label label-primary">JSON</span></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+              
+    </body>
+</html>
